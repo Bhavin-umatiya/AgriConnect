@@ -13,7 +13,7 @@ Modern, responsive website designed for the agriculture sector, providing farmer
 
 ## 🚀 Live Demo
 
-[View Live Site](https://your-username.github.io/agriconnect-website)
+[View Live Site] https://bhavin-umatiya.github.io/AgriConnect/
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +25,8 @@ Modern, responsive website designed for the agriculture sector, providing farmer
 
 ## 📱 Screenshots
 
-[Add screenshots of your website here]
+<img width="1897" height="902" alt="image" src="https://github.com/user-attachments/assets/36dc58cb-3502-4de3-9880-8c1fc065e32f" />
+
 
 ## 🏗️ Installation
 

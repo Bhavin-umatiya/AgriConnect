@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect - Your Agricultural Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2><i class="fas fa-seedling"></i> AgriConnect</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#weather" class="nav-link">Weather</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-secondary" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Cultivating Tomorrow's Agriculture</h1>
+                <p class="hero-subtitle">Your trusted partner for modern farming solutions, quality seeds, and agricultural expertise</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Explore Products</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern Agriculture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose AgriConnect?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Modern Equipment</h3>
+                    <p>Latest agricultural machinery and tools for efficient farming operations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Quality Seeds</h3>
+                    <p>Premium seeds with high yield potential and disease resistance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Support</h3>
+                    <p>24/7 agricultural consultation and technical assistance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Market Insights</h3>
+                    <p>Real-time crop prices and market analysis for better decisions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Seeds">
+                    <div class="product-content">
+                        <h3>Premium Seeds</h3>
+                        <p>High-quality hybrid and organic seeds for various crops</p>
+                        <span class="price">Starting from $25/kg</span>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fertilizers">
+                    <div class="product-content">
+                        <h3>Organic Fertilizers</h3>
+                        <p>Eco-friendly fertilizers for sustainable farming practices</p>
+                        <span class="price">Starting from $15/bag</span>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+                <!-- <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Equipment">
+                    <div class="product-content">
+                        <h3>Farm Equipment</h3>
+                        <p>Modern tractors, harvesters, and farming tools</p>
+                        <span class="price">Contact for pricing</span>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather" class="weather">
+        <div class="container">
+            <h2 class="section-title">Weather Forecast</h2>
+            <div class="weather-widget">
+                <div class="weather-current">
+                    <div class="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="weather-info">
+                        <h3>28°C</h3>
+                        <p>Sunny</p>
+                        <small>Perfect for harvesting</small>
+                    </div>
+                </div>
+                <div class="weather-forecast">
+                    <div class="forecast-day">
+                        <span>Today</span>
+                        <i class="fas fa-sun"></i>
+                        <span>28°/18°</span>
+                    </div>
+                    <div class="forecast-day">
+                        <span>Tomorrow</span>
+                        <i class="fas fa-cloud-sun"></i>
+                        <span>25°/16°</span>
+                    </div>
+                    <div class="forecast-day">
+                        <span>Saturday</span>
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>22°/14°</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Blog 1">
+                    <div class="blog-content">
+                        <h3>5 Tips for Sustainable Farming</h3>
+                        <p>Discover practical ways to make your farm more eco-friendly and productive.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Blog 2">
+                    <div class="blog-content">
+                        <h3>Modern Equipment Trends</h3>
+                        <p>Explore the latest technology and machinery revolutionizing agriculture.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80" alt="Blog 3">
+                    <div class="blog-content">
+                        <h3>Weather & Crop Planning</h3>
+                        <p>How to use weather forecasts to maximize your crop yield and reduce risks.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Farm Road, Agricultural District</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@agriconnect.com</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertise Section -->
+    <section class="advertise">
+        <div class="container">
+            <div class="advertise-content">
+                <h2><i class="fas fa-bullhorn"></i> Advertise With Us</h2>
+                <p>Promote your agricultural products, services, or brand to thousands of engaged farmers and agri-enthusiasts. <br>Contact us at <a href="mailto:ads@agriconnect.com">ads@agriconnect.com</a> to get started!</p>
+                <a href="#contact" class="btn btn-primary">Contact for Ads</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-seedling"></i> AgriConnect</h3>
+                    <p>Empowering farmers with modern agricultural solutions and expert guidance.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#weather">Weather</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgriConnect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Theme toggle logic
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const navMenu = document.querySelector('.nav-menu');
+        function setThemeIcon() {
+            themeToggle.innerHTML = body.classList.contains('dark-theme') ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        }
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            themeToggle.classList.toggle('active');
+            setThemeIcon();
+            // Also update nav menu for mobile
+            if (navMenu) {
+                if (body.classList.contains('dark-theme')) {
+                    navMenu.classList.add('dark-theme');
+                } else {
+                    navMenu.classList.remove('dark-theme');
+                }
+            }
+        });
+        setThemeIcon();
+    </script>
+</body>
+</html>
